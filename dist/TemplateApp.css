@@ -1,0 +1,132 @@
+/* src/Components/SamplePage.scss */
+.efb-view.TemplateApp .ui-view.page .sample-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10vh 10vw;
+  box-sizing: border-box;
+  background-color: var(--color);
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .header > h2 {
+  color: white;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .switch-stream {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .switch-stream > input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .switch-stream > button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .switch-stream > button:hover {
+  background-color: #0056b3;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .text-box {
+  flex-grow: 1;
+  background-color: #f0f0f0;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .text-box > .chat-message {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .chat-input {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .chat-input > input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .chat-input > button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.efb-view.TemplateApp .ui-view.page .sample-page > .content > .chat-input > button:hover {
+  background-color: #0056b3;
+}
+
+/* src/Components/SamplePopup.scss */
+.efb-view.TemplateApp .ui-view.popup {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(127, 127, 127, 0.8);
+}
+.efb-view.TemplateApp .ui-view.popup .sample-popup {
+  position: relative;
+  top: 100px;
+  width: 50vw;
+  height: 20vh;
+  color: black;
+  background: lightgray;
+}
+.efb-view.TemplateApp .ui-view.popup .sample-popup > button.abstract-button {
+  width: 100%;
+}
+.efb-view.TemplateApp .ui-view.popup .sample-popup > .content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1vh;
+  box-sizing: border-box;
+}
+
+/* src/TemplateApp.scss */
+.efb-view.TemplateApp .template-app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/*# sourceMappingURL=TemplateApp.css.map */
